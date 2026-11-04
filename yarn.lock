@@ -7390,9 +7390,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/assets-controller@npm:^20.0.1, @metamask/assets-controller@npm:^20.2.2":
+"@metamask/assets-controller@file:../core/packages/assets-controller::locator=metamask-crx%40workspace%3A.":
   version: 20.2.2
-  resolution: "@metamask/assets-controller@npm:20.2.2"
+  resolution: "@metamask/assets-controller@file:../core/packages/assets-controller#../core/packages/assets-controller::hash=017fc7&locator=metamask-crx%40workspace%3A."
   dependencies:
     "@ethereumjs/util": "npm:^9.1.0"
     "@ethersproject/abi": "npm:^5.7.0"
@@ -7425,7 +7425,7 @@ __metadata:
     async-mutex: "npm:^0.5.0"
     bignumber.js: "npm:^9.1.2"
     lodash-es: "npm:^4.18.1"
-  checksum: 10/878b94d85a8b3cec8ccbe9fc8decccaaecc66702c07a6a903c8d8492524ca55345c89b28dbbf306b6995ec1fbdeae6dbb798ead33f20311113502f020e2b0746
+  checksum: 10/50e58c1752d7b7d258d715a5949ee264cfe999f7256992d98012b9163bfd1102f1180f5185ea08cf9f8d2eeb9e0de52634ab96159357927c9792f9d2d2c765d7
   languageName: node
   linkType: hard
 
@@ -7970,28 +7970,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@metamask/core-backend@npm:^12.3.0":
-  version: 12.3.0
-  resolution: "@metamask/core-backend@npm:12.3.0"
-  dependencies:
-    "@metamask/account-tree-controller": "npm:^11.0.1"
-    "@metamask/controller-utils": "npm:^13.0.0"
-    "@metamask/keyring-controller": "npm:^28.2.0"
-    "@metamask/messenger": "npm:^3.0.0"
-    "@metamask/profile-sync-controller": "npm:^34.0.3"
-    "@metamask/remote-feature-flag-controller": "npm:^7.0.0"
-    "@metamask/utils": "npm:^12.0.0"
-    "@tanstack/query-core": "npm:^5.103.2"
-    async-mutex: "npm:^0.5.0"
-    cockatiel: "npm:^3.2.1"
-    uuid: "npm:^11.1.1"
-  checksum: 10/2aa8bc998c485c11f32d0a3f4f29c0b4053ebe7cdcd756268d47bccf3aaed9900f35c6cbc871e4331848933aabff00d97ca9a1d0e968d9d56f8fbcbf7fe41a43
-  languageName: node
-  linkType: hard
-
-"@metamask/core-backend@npm:^14.0.0":
+"@metamask/core-backend@file:../core/packages/core-backend::locator=metamask-crx%40workspace%3A.":
   version: 14.0.0
-  resolution: "@metamask/core-backend@npm:14.0.0"
+  resolution: "@metamask/core-backend@file:../core/packages/core-backend#../core/packages/core-backend::hash=6f85ee&locator=metamask-crx%40workspace%3A."
   dependencies:
     "@metamask/account-tree-controller": "npm:^11.2.0"
     "@metamask/controller-utils": "npm:^13.0.0"
@@ -8003,8 +7984,8 @@ __metadata:
     "@tanstack/query-core": "npm:^5.103.2"
     async-mutex: "npm:^0.5.0"
     cockatiel: "npm:^3.2.1"
-    uuid: "npm:^14.0.1"
-  checksum: 10/528399ebbdef099a691b30b3c99224fa103691bac9459e94ae69e8be8429defa33a65b839b32c0d1d811207fe9164245134b9f6b5a5af12030548bbc591f6ab1
+    uuid: "npm:^14.0.2"
+  checksum: 10/70ef0631dcb14c173a1f8a03d196985064f8d9db24b6cc256cf4cf05c98bc05618a03ed124e0759213fb39305a5884404ac13d6485a7e61895b674d2fdb6867e
   languageName: node
   linkType: hard
 
@@ -9816,7 +9797,7 @@ __metadata:
   version: 22.1.1
   resolution: "@metamask/perps-controller@npm:22.1.1"
   dependencies:
-    "@metamask/abi-utils": "npm:^2.0.4"
+    "@metamask/address-book-controller": "npm:^8.0.0"
     "@metamask/base-controller": "npm:^10.1.0"
     "@metamask/controller-utils": "npm:^13.0.0"
     "@metamask/messenger": "npm:^3.0.0"
